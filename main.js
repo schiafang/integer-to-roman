@@ -16,12 +16,6 @@ function switchToRoman() {
   let textContent = `${toRoman(Number(arabicNumerals.value))}`
   romanNumerals.innerText = textContent
 }
-// function valueRange() {
-//   if ((Number(arabicNumerals.value) < 1 || Number(arabicNumerals.value) > 3999 || (arabicNumerals.value) === ''))
-//     alert('only switch number 1-3999')
-// }
-
-
 
 arabicNumerals.addEventListener('input', event => {
   if (Number(arabicNumerals.value) < 0 || Number(arabicNumerals.value) > 3999) { alert('please enter number 1 - 3999') }
