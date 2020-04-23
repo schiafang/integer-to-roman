@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Integer to Roman</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+
+    <div class="container">
+      <div class="arabic">
+        <input type="text" class="arabic-numerals" placeholder="1-3999" maxlength="4"
+          oninput="value=value.replace(/[^\d]/g,'')" />
+      </div>
+      <div class="roman">
+        <span class="mt-4 roman-numerals">MCCXXXIV</span>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right,#485563, #29323c);
+}
+.roman {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+  background-color: brown;
+} 
+.arabic {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arabic-numerals {
+  font-size: 42px;
+  font-family: 'Lato', 'Source Sans Pro', 'Noto Sans TC', sans-serif;
+  color: tomato;
+  border: 0;
+  background: rgba(255,255,255,0.1);
+  text-align: center;
+  height: 50px;
+  width: 400px;
+  caret-color: rgb(204, 201, 201);
+  letter-spacing: 6px;
+}
+.roman-numerals {
+  font-size: 42px;
+  font-family: 'Lato', 'Source Sans Pro', 'Noto Sans TC', sans-serif;
+  background: transparent;
+  background: rgba(255,99,71,0.1);
+  line-height: 50px;
+  width: 400px;
+  text-align: center;
+  color:rgba(255,255,255,0.6);
+  letter-spacing: 6px;
+}
+::-webkit-input-placeholder { 
+  color: gba(255,99,71,0.1);
+}
+
